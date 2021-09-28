@@ -7,4 +7,5 @@ In the file Covariables are:
 - The California Healthy Place Index. This value combines twenty-five community characteristics  (the number of people living below the poverty line, the number of people with lower levels of education, areas with more renters and fewer homeowners, among others.) into a single value (HPI) to account for the level of poverty, education, and life expectancy in a particular community. 
 
 
-- [1] Californial Department of Public Health.  Covid-19 time-series metrics by county andstate - datasets - california health and human services open data portal.https://data.chhs.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state.(Accessed on 09/16/2021).
+
+[1] Californial Department of Public Health.  Covid-19 time-series metrics by county andstate - datasets - california health and human services open data portal. https://data.chhs.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state. (Accessed on 09/16/2021).
