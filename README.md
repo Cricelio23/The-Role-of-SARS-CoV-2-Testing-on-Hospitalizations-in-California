@@ -11,4 +11,4 @@ The Covariable.xlsx file contains:
 
 [2] 2019 data profiles — american community survey — us census bureau. https://www.census.gov/acs/www/data/data-tables-and-tools/data-profiles/. (Accessed on 09/16/2021).
 
-[3] The  California  HEalthy  Places  Index  (HPI). Data  &  reports – california  healthyplaces index. https://healthyplacesindex.org/data-reports/. (Accessed  on 09/16/2021)
+[3] The  California  Healthy  Places  Index  (HPI). Data  &  reports – california  healthyplaces index. https://healthyplacesindex.org/data-reports/. (Accessed  on 09/16/2021)
