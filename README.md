@@ -11,8 +11,8 @@ Google’s Community Mobility Reports [4]. The six Google-specific data streams,
 mob_google_county_wave_1_.csv, mob_google_county_wave_2_.csv, and mob_google_county_wave_3_.csv.
 
 ## Codes
-With file Create_Data.py the databases to be analyzed in each wave are created, to have the data on a weekly level.
-The file Fitting_Linear_Mixed_Effects_Models.R contains the code that reads the data created with Create_Data.py and fits the linear mixed effects model using the lme4 library.
+- With file Create_Data.py the databases to be analyzed in each wave are created, to have the data on a weekly level.
+- The file Fitting_Linear_Mixed_Effects_Models.R contains the code that reads the data created with Create_Data.py and fits the linear mixed effects model using the lme4 library.
 
 ## References
 [1] Californial Department of Public Health.  Covid-19 time-series metrics by county andstate - datasets - california health and human services open data portal. https://data.chhs.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state. (Accessed on 09/16/2021).
