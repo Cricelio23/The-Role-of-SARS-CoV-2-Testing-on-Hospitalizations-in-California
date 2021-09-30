@@ -6,15 +6,14 @@ library(lmerTest)
 # Weve is the wave to analize (1, 2, or, 3)
 wave = 2
 data1 <- read.csv(sprintf("base_10k_wave_%s.csv",wave))
+# A small tolerance is added to deal with 0 counts
 epsilon = .00000001
 data <- data1 %>%
   mutate(county = as.factor(county),
-         Urban_rural = as.factor(Urban_rural),
          Hosp_10k = Hosp_10k+epsilon,
          Rate = Rate+epsilon,
          log.hosp = log(Hosp_10k),
-         log.Rate = log(Rate),
-         HPI2 =as.factor(ifelse(HPI<25,1,ifelse(HPI<50,2,ifelse(HPI<75,3,4)))))
+         log.Rate = log(Rate))
 
 # Fitting Linear Mixed-Effects Models Using lme4
 fit_ran <- lmer(log.hosp~ Over_65+Asian+Hispanic+Morenitos+HPI+
