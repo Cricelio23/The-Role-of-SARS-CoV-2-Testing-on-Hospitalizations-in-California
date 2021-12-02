@@ -1,4 +1,4 @@
-# The-Role-of-Testing-in-Reducing-Hospitalization
+# The Role of SARS-CoV-2 Testing on Hospitalizations in California
 
 ## Data
 Epidemiological data.  Publicly available information of COVID-19 regarding daily reported cases (covid19cases_test.csv) and hospitalization admissions (covid19hospitalbycounty.csv) at county-level was obtained from the official website of the California Department of Public Health (CDPH) [1]. The hospitalized data are not a cumulative number. Data includes all inpatients (including those in ICUs and Medical/Surgical units) and does not include patients in affiliated clinics, outpatient departments, emergency departments, and overflow locations awaiting an inpatient bed. As of April 21, 2020, COVID emergency department patients were removed from the Hospitalized COVID count and counted separately.
